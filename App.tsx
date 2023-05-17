@@ -68,7 +68,7 @@ export default class App extends React.Component<{}, {inflationRate: any,
   render() {
     return (
       <View style={styles.container}>
-        <TextInput placeholder="Current inflation rate"
+        <TextInput placeholder="Current inflation rate here"
                    style={styles.textBox} keyboardType='decimal-pad'
                    onChangeText={(inflationRate) => this.setState({inflationRate})}/>
         <TextInput placeholder="Current risk free rate"
