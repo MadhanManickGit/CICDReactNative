@@ -2,7 +2,7 @@
 The React Native project for the LPA's CI/CD React Native Course
 
 ios: 
-[![Build status](https://build.appcenter.ms/v0.1/apps/c1de7d3d-2f93-4837-aafe-9c77923679a3/branches/dev/badge)](https://appcenter.ms)
+[![Build status](https://build.appcenter.ms/v0.1/apps/480bd54b-c426-4b07-80b8-e258a865bcec/branches/dev/badge)](https://appcenter.ms)
 
 android: 
-[![Build status](https://build.appcenter.ms/v0.1/apps/958b109c-51b7-46b1-b185-ca3144a7aeb8/branches/dev/badge)](https://appcenter.ms)
+[![Build status](https://build.appcenter.ms/v0.1/apps/4c0cfc48-01eb-4faa-a5a2-f60c26c1294b/branches/dev/badge)](https://appcenter.ms)
