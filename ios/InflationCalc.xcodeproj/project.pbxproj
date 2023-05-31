@@ -11,6 +11,8 @@
 		0C80B921A6F3F58F76C31292 /* libPods-InflationCalc.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 5DCACB8F33CDC322A6C60F78 /* libPods-InflationCalc.a */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		1D2BBC0F2A20851800D5C3EE /* InflationCalcUITestsLaunchTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2BBC0E2A20851800D5C3EE /* InflationCalcUITestsLaunchTests.m */; };
+		1D2BBC152A20C71D00D5C3EE /* InflationCalcUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D2BBC0C2A20851800D5C3EE /* InflationCalcUITests.m */; };
 		1D31FC452A0A5117000D9735 /* AppCenter-Config.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1D31FC442A0A5117000D9735 /* AppCenter-Config.plist */; };
 		1D76CBEA2A0E306E0089C72B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D76CBE92A0E306E0089C72B /* AppDelegate.m */; };
 		7699B88040F8A987B510C191 /* libPods-InflationCalc-InflationCalcTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-InflationCalc-InflationCalcTests.a */; };
@@ -19,6 +21,13 @@
 
 /* Begin PBXContainerItemProxy section */
 		00E356F41AD99517003FC87E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 13B07F861A680F5B00A75B9A;
+			remoteInfo = InflationCalc;
+		};
+		1D2BBC102A20851800D5C3EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 83CBB9F71A601CBA00E9B192 /* Project object */;
 			proxyType = 1;
@@ -37,6 +46,9 @@
 		13B07FB61A68108700A75B9A /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = InflationCalc/Info.plist; sourceTree = "<group>"; };
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = InflationCalc/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-InflationCalc-InflationCalcTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-InflationCalc-InflationCalcTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2BBC0A2A20851800D5C3EE /* InflationCalcUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InflationCalcUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D2BBC0C2A20851800D5C3EE /* InflationCalcUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InflationCalcUITests.m; sourceTree = "<group>"; };
+		1D2BBC0E2A20851800D5C3EE /* InflationCalcUITestsLaunchTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = InflationCalcUITestsLaunchTests.m; sourceTree = "<group>"; };
 		1D31FC442A0A5117000D9735 /* AppCenter-Config.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AppCenter-Config.plist"; sourceTree = "<group>"; };
 		1D76CBE92A0E306E0089C72B /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = InflationCalc/AppDelegate.m; sourceTree = "<group>"; };
 		3B4392A12AC88292D35C810B /* Pods-InflationCalc.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InflationCalc.debug.xcconfig"; path = "Target Support Files/Pods-InflationCalc/Pods-InflationCalc.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,6 +74,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				0C80B921A6F3F58F76C31292 /* libPods-InflationCalc.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D2BBC072A20851800D5C3EE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -98,6 +117,15 @@
 			name = InflationCalc;
 			sourceTree = "<group>";
 		};
+		1D2BBC0B2A20851800D5C3EE /* InflationCalcUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1D2BBC0C2A20851800D5C3EE /* InflationCalcUITests.m */,
+				1D2BBC0E2A20851800D5C3EE /* InflationCalcUITestsLaunchTests.m */,
+			);
+			path = InflationCalcUITests;
+			sourceTree = "<group>";
+		};
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +150,7 @@
 				13B07FAE1A68108700A75B9A /* InflationCalc */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* InflationCalcTests */,
+				1D2BBC0B2A20851800D5C3EE /* InflationCalcUITests */,
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
@@ -136,6 +165,7 @@
 			children = (
 				13B07F961A680F5B00A75B9A /* InflationCalc.app */,
 				00E356EE1AD99517003FC87E /* InflationCalcTests.xctest */,
+				1D2BBC0A2A20851800D5C3EE /* InflationCalcUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -197,6 +227,24 @@
 			productReference = 13B07F961A680F5B00A75B9A /* InflationCalc.app */;
 			productType = "com.apple.product-type.application";
 		};
+		1D2BBC092A20851800D5C3EE /* InflationCalcUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1D2BBC142A20851800D5C3EE /* Build configuration list for PBXNativeTarget "InflationCalcUITests" */;
+			buildPhases = (
+				1D2BBC062A20851800D5C3EE /* Sources */,
+				1D2BBC072A20851800D5C3EE /* Frameworks */,
+				1D2BBC082A20851800D5C3EE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1D2BBC112A20851800D5C3EE /* PBXTargetDependency */,
+			);
+			name = InflationCalcUITests;
+			productName = InflationCalcUITests;
+			productReference = 1D2BBC0A2A20851800D5C3EE /* InflationCalcUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -211,6 +259,10 @@
 					};
 					13B07F861A680F5B00A75B9A = {
 						LastSwiftMigration = 1120;
+					};
+					1D2BBC092A20851800D5C3EE = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = 13B07F861A680F5B00A75B9A;
 					};
 				};
 			};
@@ -229,6 +281,7 @@
 			targets = (
 				13B07F861A680F5B00A75B9A /* InflationCalc */,
 				00E356ED1AD99517003FC87E /* InflationCalcTests */,
+				1D2BBC092A20851800D5C3EE /* InflationCalcUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -248,6 +301,13 @@
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
 				1D31FC452A0A5117000D9735 /* AppCenter-Config.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1D2BBC082A20851800D5C3EE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,6 +481,15 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1D2BBC062A20851800D5C3EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1D2BBC0F2A20851800D5C3EE /* InflationCalcUITestsLaunchTests.m in Sources */,
+				1D2BBC152A20C71D00D5C3EE /* InflationCalcUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -428,6 +497,11 @@
 			isa = PBXTargetDependency;
 			target = 13B07F861A680F5B00A75B9A /* InflationCalc */;
 			targetProxy = 00E356F41AD99517003FC87E /* PBXContainerItemProxy */;
+		};
+		1D2BBC112A20851800D5C3EE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 13B07F861A680F5B00A75B9A /* InflationCalc */;
+			targetProxy = 1D2BBC102A20851800D5C3EE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -532,6 +606,60 @@
 				PRODUCT_NAME = InflationCalc;
 				SWIFT_VERSION = 5.0;
 				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		1D2BBC122A20851800D5C3EE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEVELOPMENT_TEAM = 8H34DP974N;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Madhan.InflationCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InflationCalc;
+			};
+			name = Debug;
+		};
+		1D2BBC132A20851800D5C3EE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEVELOPMENT_TEAM = 8H34DP974N;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MARKETING_VERSION = 1.0;
+				MTL_FAST_MATH = YES;
+				PRODUCT_BUNDLE_IDENTIFIER = Madhan.InflationCalcUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = InflationCalc;
 			};
 			name = Release;
 		};
@@ -689,6 +817,15 @@
 			buildConfigurations = (
 				13B07F941A680F5B00A75B9A /* Debug */,
 				13B07F951A680F5B00A75B9A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1D2BBC142A20851800D5C3EE /* Build configuration list for PBXNativeTarget "InflationCalcUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1D2BBC122A20851800D5C3EE /* Debug */,
+				1D2BBC132A20851800D5C3EE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
