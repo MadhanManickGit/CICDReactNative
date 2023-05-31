@@ -38,6 +38,17 @@
                ReferencedContainer = "container:InflationCalc.xcodeproj">
             </BuildableReference>
          </TestableReference>
+         <TestableReference
+            skipped = "NO"
+            parallelizable = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "1D2BBC092A20851800D5C3EE"
+               BuildableName = "InflationCalcUITests.xctest"
+               BlueprintName = "InflationCalcUITests"
+               ReferencedContainer = "container:InflationCalc.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
    </TestAction>
    <LaunchAction
